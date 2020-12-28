@@ -1,0 +1,321 @@
+body{
+    background: #181719;
+    margin: 0 auto;
+    max-width: 1300px;
+    min-width: 355px;
+    color: white;
+    padding: 0 40px;
+    padding-top: 22px;
+}
+
+p{
+    padding: 0 auto;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+img{
+    width: 100%;
+}
+
+footer{
+    padding-top: 100px;
+}
+
+.logo{
+    border: 1px solid white;
+    padding: 6px 10px;
+    font-family: 'Crimson Pro';
+    font-weight: 200;
+    font-size: 14px;
+    white-space: nowrap;  
+}
+.menu-header a{
+    padding-left: 65px;
+}
+.content-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.menu-header{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+  
+}
+
+.icono{
+    display: none;
+}
+
+.letra-menu-primer{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.letra-menu{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.content-main{
+    display: flex;
+    padding-top: 80px;
+   
+}
+
+.all-text-main{
+    width: 35%;
+}
+
+.content-img{
+    max-width: 55%;
+    padding-left: 148px;
+}
+
+.title-main{
+    font-family: 'Lora';
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.text-main{
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.letra-buton-main{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.footer{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+    color: #A9A9A9;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.card-content{
+    display: flex;
+    padding-top: 10px;
+}
+
+.card-img img{
+    max-width: 100%;
+    width: 50px;
+    border-radius: 50%;
+    padding-right: 15px;
+}
+
+.letra-titulo-card{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0;
+}
+
+.letra-subtitulo-card{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 12px;
+    color: #828282;
+    margin: 0;
+}
+
+.content-text-card{
+    margin-top: 5px;
+}
+
+.text-card{
+    font-family: 'Lora';
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.all-card{
+    width: 50%;
+    float: right;
+    transform: translateY(-107px);
+    transform: translateX(-40px) translateY(-108px);
+    background: #181719;
+    padding: 15px;  
+    
+}
+
+@media (max-width: 1200px) {
+    .content-img {
+        margin-top: 38px;
+    }
+
+    .title-main {
+        font-size: 44px;
+    }
+
+    .text-main {
+        font-size: 22px;
+    }
+
+    .letra-buton-main {
+        font-size: 16px;
+    }
+
+    .text-card {
+        font-size: 20px;
+    }
+    
+    .icono{
+        display: none;
+    }
+
+}
+
+
+
+@media (max-width: 1120px) {
+    .content-img {
+        margin-top: 38px;
+        max-width: 50%;
+    }
+
+    .text-main {
+        font-size: 20px;
+    }
+
+    .title-main {
+        font-size: 33px;
+    }
+
+    .letra-buton-main {
+        font-size: 14px;
+    }
+
+    .text-card {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 1030px) {
+    .title-main {
+        font-size: 30px;
+    }
+
+    .text-main {
+        font-size: 18px;
+    }
+
+    .letra-menu-primer {
+        font-size: 16px;
+    }
+
+    .letra-menu {
+        font-size: 16px;
+    }
+
+    .text-card {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 984px) {
+    .title-main {
+        font-size: 25px;
+    }
+
+    .text-main {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 830px) {
+    .menu-header a {
+        padding: 20px;
+    }
+
+    .content-main {
+        padding-top: 34px;
+    }
+
+    .content-img {
+        padding-left: 72px;
+        max-width: 54%;
+        margin-top: 24px;
+    }
+
+    .all-card {
+        width: 54%;
+        transform: translateX(-27px) translateY(-108px);
+    }
+}
+
+@media (max-width: 755px) {
+    .all-text-main {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .content-img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .content-main {
+        display: block;
+        padding-top: 80px;
+        align-items: center;
+    }
+
+    .all-text-main {
+        width: 87%;
+        text-align: inherit;
+        max-width: 68%;
+    }
+
+    .content-img {
+        max-width: 94%;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 593px) {
+    .menu-header {
+        display: none;
+    }
+
+    .icono{
+        display: flex;
+        z-index: 7;
+    }
+
+    .menu-header.on{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        background: #181719;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        text-align: center;
+        padding-top: 20%;
+        
+    }
+    
+}
